@@ -1,8 +1,8 @@
 Instruções de uso
 - 1104.py: https://www.beecrowd.com.br/judge/pt/problems/view/1104
 A primeira entrada deve ser feita passando dois numeros separados por espaço. exemplo: 3 4.
-A segunda entrada são os numeros que correspondem as figurinhas de Alice, separados por espaço. Exemplo: 1 2 3.
-A terceira entrada são os numeros que correspondem as figurinhas de Beatriz, separados por espaço. Exemplo: 4 5 6 7.
+A segunda entrada são os numeros que correspondem as cartas de Alice, separados por espaço. Exemplo: 1 2 3.
+A terceira entrada são os numeros que correspondem as cartas de Beatriz, separados por espaço. Exemplo: 4 5 6 7.
 A saida será o número de trocas possíveis. Exemplo: 3.
 Após a saida, o programa retornará para a primeira entrada. A entrada 0 0 (zero, espaço, zero) termina a execução.
 
