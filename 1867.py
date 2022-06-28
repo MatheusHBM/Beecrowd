@@ -12,7 +12,10 @@ def somaAlgarismos(num):
         return aux
     
 
-def maiorNumero(n,m):
+def maiorNumero(entrada):
+    aux = entrada.split(" ")
+    n = int(aux[0])
+    m = int(aux[1])
     m=somaAlgarismos(m)# reduz o numero da entrada a apenas um digito
     n=somaAlgarismos(n)
 
@@ -26,16 +29,14 @@ def maiorNumero(n,m):
 
 
 
-def entrada():
-    #as variaves recebem as strings de entrada e convertem para int      
-    n=int(input())
-    m=int(input())
-    condicao = (n != 0) or (m != 0)#monta a condição de parada (false)
-    if (condicao):#verifica se a condição é válida
+def execucao():
+    entrada = input()
+    #as variaves recebem as strings de entrada e convertem para int 
+    if (entrada != "0 0"):#verifica se a condição é válida
         #se a condição for true:
-        maiorNumero(n,m)        
-        entrada()
+        maiorNumero(entrada)        
+        execucao()
         
-entrada()
+execucao()
 
     
